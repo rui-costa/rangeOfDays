@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Range Of Days POC",
+    "author":"Rui Costa",
+    "content_scripts": [
+        {
+          "matches": ["*://*.ikea.com/*"],
+          "js": ["extension.js"]
+        }
+      ]
+  
+    }
